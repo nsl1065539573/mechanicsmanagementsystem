@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body>
+hello springboot!
+<div id="register-div">
+    <input type="text" placeholder="username" id="username" v-model="username"/>
+    <input type="password" placeholder="password" id="password" v-model="password"/>
+    <input type="password" placeholder="确认密码" id="confirm" v-model="confirm" />
+    <input type="text" placeholder="nickname" id="nickname" v-model="nickname" />
+    <button v-on:click="register">register</button>
+</div>
+</body>
+<script src="js/vue.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/axios.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/register.js" charset="UTF-8" type="text/javascript"></script>
+</html>
