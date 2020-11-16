@@ -15,6 +15,6 @@ public class MainController {
 
     @RequestMapping("register")
     public String register() {
-        return "register.html";
+        return "register_copy.html";
     }
 }
